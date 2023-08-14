@@ -1,0 +1,207 @@
+/* src/components/css/about.css */
+
+.profile-card {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 3rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #748CAB;
+    margin-top: 1rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-left: 3rem;
+}
+
+.profile-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 5rem;
+    flex-grow: 1;
+}
+
+.profile-heading h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 5px;
+    color: azure;
+}
+
+.profile-heading h3 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.contact-info {
+    margin-right: 3rem;
+}
+
+.contact-info div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact-info div svg {
+    margin-right: 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.section {
+    margin: 2rem 8rem;
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.section-icon {
+    margin-right: 1rem;
+    font-size: 2rem;
+}
+
+.section h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    color: #333;
+    background-color: #333;
+    margin: 1rem 0;
+}
+
+.section-text {
+    text-align: justify;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #333;
+}
+
+.education-item,
+.experience-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.experience-info {
+    flex: 1;
+}
+
+.education-info h3,
+.experience-info h3,
+.education-date p,
+.experience-date p,
+.experience-date span {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 0.2rem;
+}
+
+.education-info h4,
+.experience-info h4,
+.education-date span {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666;
+}
+
+.experience-info p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666;
+    text-align: justify;
+}
+
+.education-date {
+    text-align: right;
+}
+
+.experience-date {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-width: 120px;
+}
+
+.education-date p,
+.experience-date p {
+    margin: 0;
+}
+
+.language-item,
+.skills-item,
+.interests-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.language-item h3,
+.skills-item h3,
+.interests-item h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 0.2rem;
+}
+
+.language-item p {
+    margin-top: 0;
+}
+
+.language-item p,
+.skills-item p,
+.interests-item p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666;
+}
+
+.language-item span,
+.skills-item span,
+.interests-item span {
+    font-weight: 600;
+    color: #748CAB;
+    margin-left: 5px;
+}
+
+.keywords {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.keywords span {
+    font-weight: 600;
+    color: #748CAB;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+

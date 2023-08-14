@@ -1,0 +1,48 @@
+/* src/components/css/Header.css */
+
+.navbar {
+  background-color: #1D2D44;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 100px;
+}
+
+.navbar img {
+  height: 30px;
+}
+
+.navbar-menu {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.navbar-menu li a {
+  position: relative;
+  color: azure;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  transition: color 0.3s ease;
+}
+
+.navbar-menu li a::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width 0.3s ease;
+}
+
+.navbar-menu li a:hover {
+  color: black;
+}
+
+.navbar-menu li a:hover::after {
+  width: 100%;
+}

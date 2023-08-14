@@ -1,0 +1,39 @@
+/* typewriter.css */
+
+.typewriter-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .typewriter-text {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 3.5rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  
+  .typewriter-span {
+    color: azure;
+    font-weight: bold;
+  }
+  
+  @keyframes typing {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink-caret {
+    0%, 100% {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #333;
+    }
+  }
+  

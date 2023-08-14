@@ -1,0 +1,59 @@
+/* src/components/css/footer.css */
+
+.footer {
+  background-color: #ddd;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.footer-info {
+  margin-right: 5rem;
+}
+
+.footer-info,
+.footer-social {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-info li,
+.footer-social li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.footer-info li svg,
+.footer-social li svg {
+  margin-right: 10px; /* Espaçamento à direita do ícone */
+  align-items: start;
+  height: 24px;
+  width: 24px;
+}
+
+.footer-social li a {
+  display: flex;
+  align-items: center;
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-social li a:hover {
+  color: black;
+}
+
+.footer-copyright {
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}

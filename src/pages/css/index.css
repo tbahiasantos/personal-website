@@ -1,0 +1,252 @@
+/* index.css */
+
+/* Estilos gerais */
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10rem; 
+}
+
+.profile-image {
+  border-radius: 50%;
+}
+
+.profile-name {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 4rem;
+  font-weight: 700;
+  color: azure;
+  letter-spacing: 0.4rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.social-icons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background-color: #333;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.social-icons a:hover {
+  background-color: #000;
+}
+
+.welcome-container {
+  background-color: #E8F1F2;
+  margin-top: 3rem;
+  padding: 1.5rem;
+}
+
+.welcome-message {
+  margin: 0 auto;
+  max-width: 960px;
+  color: #333;
+}
+
+.welcome-text1 h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 0.5rem;
+}
+
+.welcome-text2 h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-bottom: 1rem;    
+}
+
+.welcome-text3 p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+} 
+
+.github-section {
+  margin: 0 auto;
+  max-width: 960px;  
+  text-align: left;
+  padding: 15px;
+  margin-top: 1.5rem;
+}
+
+.github-section h2 {
+  font-size: 4rem;
+  font-weight: 900;
+  color: #333;
+}
+
+.github-section h3 {
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: azure;
+  padding-left: 2rem;
+}
+
+/* Estilos para tablets */
+
+@media (min-width: 768px) {
+
+  .profile {
+      padding-top: 15rem;
+  }
+
+  .profile-name {
+      font-size: 5rem;
+      letter-spacing: 0.6rem;
+  }
+
+  .social-icons {
+      margin-top: 2rem;
+  }
+
+  .welcome-container {
+      margin-top: 5rem;
+      padding: 2rem;
+  }
+
+  .welcome-text1 h1 {
+      font-size: 4rem;
+  }
+
+  .welcome-text2 h1 {
+      font-size: 3rem;
+      margin-bottom: 2rem;    
+  }
+
+  .welcome-text3 p {
+      font-size: 1.7rem;
+      line-height: 2.5rem;
+  }
+
+  .github-section {
+      padding: 20px;
+      margin-top: 2.5rem;
+  }
+
+  .github-section h2 {
+      font-size: 5rem;
+  }
+
+  .github-section h3 {
+      font-size: 2rem;
+      padding-left: 3rem;
+  }
+}
+
+/* Estilos para celulares */
+@media (max-width: 600px) {
+  .profile {
+    padding-top: 5rem; 
+  }
+  
+  .profile-name {
+    font-size: 2.5rem; 
+    letter-spacing: 0.3rem; 
+  }
+
+  .social-icons {
+    margin-top: 1rem;
+  }
+
+  .social-icons a {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+  }
+
+  .welcome-container {
+    margin-top: 3rem;
+    padding: 1.5rem;
+  }
+
+  .welcome-message {
+    max-width: 85%;
+  }
+
+  .welcome-text1 h1, .welcome-text2 h1 {
+    font-size: 2.5rem;
+  }
+
+  .welcome-text3 p {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+  }
+
+  .github-section {
+    padding: 10px;
+    margin-top: 2rem;
+  }
+
+  .github-section h2 {
+    font-size: 2.5rem;
+  }
+
+  .github-section h3 {
+    font-size: 1.2rem;
+    padding-left: 2rem;
+  }
+}
+
+/* Estilos para desktops */
+
+@media (min-width: 1024px) {
+
+  .profile {
+      padding-top: 20rem;
+  }
+
+  .profile-name {
+      font-size: 6rem;
+      letter-spacing: 0.8rem;
+  }
+
+  .social-icons {
+      margin-top: 3rem;
+  }
+
+  .welcome-container {
+      margin-top: 7rem;
+      padding: 3rem;
+  }
+
+  .welcome-text1 h1 {
+      font-size: 5rem;
+  }
+
+  .welcome-text2 h1 {
+      font-size: 4rem;
+      margin-bottom: 3rem;    
+  }
+
+  .welcome-text3 p {
+      font-size: 2rem;
+      line-height: 3rem;
+  }
+
+  .github-section {
+      padding: 25px;
+      margin-top: 3rem;
+  }
+
+  .github-section h2 {
+      font-size: 6rem;
+  }
+
+  .github-section h3 {
+      font-size: 2.5rem;
+      padding-left: 4rem;
+  }
+}
