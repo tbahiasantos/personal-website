@@ -1,6 +1,6 @@
 ---
 title: "A Importância de Alan Turing na Vida das Pessoas: Celebrando um Gênio Esquecido"
-date: "2023-07-15"
+date: "2023-12-15"
 path: /post2
 categories: ["História", "Computação", "Biografias"]
 ---

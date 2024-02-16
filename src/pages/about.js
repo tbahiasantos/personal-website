@@ -31,25 +31,19 @@ const AboutPage = () => {
         </div>
         <hr />
         <p className="section-text">
-          Sou natural de Belo Horizonte, Minas Gerais, com uma trajetória profissional que abrange as áreas de Administração
-          e de Tecnologia. Obtive meu diploma em Administração pela Universidade Federal de Lavras (UFLA),
-          onde também tive a oportunidade de participar do Programa de Educação Tutorial (PET), um programa de bolsas que visa o desenvolvimento
-          holístico dos alunos na tríade universitária: ensino, pesquisa e de extensão.
+          Sou mineiro de Belo Horizonte, Minas Gerais, e minha paixão por café, queijo e uma boa música reflete um pouco do espírito acolhedor da nossa terra.
+          Se você também for mineiro, imagino que concordará comigo, certo? 😊. Minha trajetória profissional abrange as áreas de Administração e Tecnologia da Informação.
+          Me graduei em Administração pela Universidade Federal de Lavras (UFLA), período em que pude participar do Programa de Educação Tutorial (PET) e, posteriormente,
+          trabalhar na empresa Verde Campo, desenvolvendo habilidades em gestão estratégica e marketing.
           <br /><br />
-          Durante minha formação, adquiri uma boa experiência trabalhando no departamento de Marketing da empresa
-          Verde Campo, responsável pela linha de produtos Lacfree, líder no mercado brasileiro de produtos sem lactose. Nesse contexto, pude
-          desenvolver habilidades relevantes em gestão de projetos e estratégias de marketing, como, por exemplo, o lançamento do primeiro iogurte grego
-          zero lactose a ser colocado em circulação no país.
+          Atualmente, curso Engenharia de Computação no Centro Federal de Educação Tecnológica de Minas Gerais (CEFET-MG). Nesses últimos anos tive experiências valiosas 
+          nas empresas Primetals Technologies e RHI Magnesita, onde me envolvi no desenvolvimento e manutenção de sistemas de controle industrial e também na área de Segurança 
+          da Informação. Essas vivências me proporcionaram uma melhor compreensão tanto das linguagens com as quais trabalhamos quanto com as ferramentas necessárias para o 
+          desenvolvimento prático do trabalho.
           <br /><br />
-          Atualmente, estou cursando Engenharia de Computação no Centro Federal de Educação Tecnológica de
-          Minas Gerais (CEFET-MG). Durante esse período, tive a oportunidade de aplicar meus conhecimentos em duas empresas de destaque: Primetals Technologies,
-          onde me dediquei ao desenvolvimento e manutenção de sistemas de controle da indústria de metais, e RHI Magnesita, onde atuei na área de Segurança da Informação.
-          Essas experiências enriquecedoras me proporcionaram uma compreensão aprofundada do setor de tecnologia e me permitiram desenvolver habilidades práticas
-          nesse campo em constante revolução.
-          <br /><br />
-          Além disso, tive a oportunidade de viver temporariamente em Vancouver, no Canadá, onde aprimorei meus conhecimentos da língua inglesa e mergulhei na
-          rica cultura local por meio do estudo na Pacific Languages Institute (PLI Vancouver). Obtive a certificação B2 de proficiência em inglês pela mesma instituição.
-          Essa vivência multicultural contribuiu para expandir minha perspectiva de mundo e para aprimorar minhas habilidades de comunicação em ambientes diversificados.
+          Além disso, vivi temporariamente em Vancouver, Canadá, onde aprimorei meu inglês na Pacific Languages Institute (PLI Vancouver), com certificação. 
+          Essa experiência multicultural ampliou minha visão sobre como é importante viver e conviver com pessoas diferentes e com pontos de vistas diversos, e como isso 
+          pode agregar substancialmente a qualquer trabalho se feito da forma correta, além (é claro), de ter melhorado minhas habilidades de comunicação em contextos diversos.
           <br /><br />
           Meus objetivos de vida permeiam construir uma família, trabalhar com aquilo que tenho afinidade e, consequentemente, poder contribuir efetivamente para o ambiente 
           em que estiver inserido, compartilhando minha experiência e habilidades, sempre, para alcançar os resultados desejados.
@@ -71,27 +65,14 @@ const AboutPage = () => {
             <h4>Centro Federal de Educação Tecnológica de Minas Gerais (CEFET-MG)</h4>
           </div>
           <div className="education-date">
-            <p>2019-2024</p>
+            <p>2025</p>
             <span>Em andamento</span>
-          </div>
-        </div>
-        <div className="education-item">
-          <div className="education-info">
-            <h3>Mestrado em Mercadologia, Administração Estratégica e Operações</h3>
-            <h4>Universidade Federal de Minas Gerais (UFMG)</h4>
-          </div>
-          <div className="education-date">
-            <p>2015-2016</p>
-            <span>Interrompido</span>
           </div>
         </div>
         <div className="education-item">
           <div className="education-info">
             <h3>Graduação em Administração</h3>
             <h4>Universidade Federal de Lavras (UFLA)</h4>
-          </div>
-          <div className="education-date">
-            <p>2010-2014</p>
           </div>
         </div>
       </div>
@@ -135,22 +116,10 @@ const AboutPage = () => {
             </p>
             <p className="keywords">
               <span>C#</span>, <span>SQL</span>, <span>JavaScript</span>, <span>HTML</span>, <span>CSS</span>
-            </p>            
+            </p>
           </div>
           <div className="experience-date">
             <p>2020-2021</p>
-          </div>
-        </div>
-        <div className="experience-item">
-          <div className="experience-info">
-            <h3>Analista de Marketing</h3>
-            <h4>Verde Campo</h4>
-            <p className="keywords">
-              <span>Registro & Posicionamento de Marca</span>, <span>Gestão Digital</span>, <span>Organização de Eventos</span>, <span>Audiovisual</span>
-            </p>            
-          </div>
-          <div className="experience-date">
-            <p>2012-2014</p>
           </div>
         </div>
       </div>

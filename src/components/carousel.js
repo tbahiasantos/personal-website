@@ -11,7 +11,9 @@ const Carousel = () => {
       <h2 className="carousel-title">{repo.name.toUpperCase()}</h2>
       <div className="title-underline"></div>
       <div className="spacer"></div>
-      <p className="carousel-description">{repo.description}</p>
+      <p className="carousel-description">
+        {repo.description && repo.description.length > 75 ? repo.description.substring(0, 75) + "..." : repo.description}
+      </p>
       <div className="spacer"></div>
       <a href={repo.html_url} target="_blank" rel="noreferrer" className="carousel-btn">Acessar</a>
     </div>
@@ -19,9 +21,9 @@ const Carousel = () => {
 
   return (
     <div className="carousel-container">
-      <AliceCarousel 
-        autoPlay 
-        infinite 
+      <AliceCarousel
+        autoPlay
+        infinite
         items={items}
         responsive={{
           0: { items: 1 },
